@@ -1,0 +1,56 @@
+The Whole information of the AI agent is in this file.
+
+------>The Main code of the project is available in agent.py file.
+
+------>We should create an API key to complete this project.
+
+------>Additionally and Optionally C++ is required in some of them systems.
+
+
+Commands: 
+
+1. pip install google-adk
+2. python -m venv .venv
+3. .venv\Scripts\activate.bat
+4. adk create my_agent
+    |
+    |(After running this command you should get like this)
+
+    my_agent/
+    agent.py      # main agent code
+    .env          # API keys or project IDs
+    __init__.py
+
+5. after importing the folder into the VS code or any other platform then check with the agent.py file to get the code whether it is available or not.
+
+6. Choose a model for the root agent:
+   1. gemini-2.5-flash
+   2. Other models (fill later)
+      Choose model (1, 2):
+
+7. adk run my_agent
+   
+test it. 
+Running agent root_agent, type exit to exit.
+[user]:
+
+ if it comes in this way then it is ready to test. if you are facing any issues or errors then there are some other commands needed to get this agent ready.
+
+8. pip install timezonefinder==6.5.2
+   pip install geopy tzdata
+         (or)
+   pip install timezonefinder==6.5.2 geopy tzdata
+
+9. Verify Installation
+   pip show timezonefinder
+
+10. pip install google-generativeai google-adk
+    
+    python -m google.adk.cli run my_agent
+
+
+
+      
+
+
+
